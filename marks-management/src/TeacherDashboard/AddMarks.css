@@ -1,0 +1,15 @@
+.AddMarks{
+box-sizing: border-box;
+background: fixed;
+background-color: #52ADA5;
+border: solid;
+
+}
+
+.inpcol{
+    background-color: #e0e0e0;
+}
+
+.Submitbtn{
+    background-color: #AD525A;
+}
