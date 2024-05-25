@@ -7,11 +7,13 @@ import NavigationBar from "./NavigationBar/NavigationBar";
 import StudentSidebar from "./Sidebar/StudentSidebar";
 import TeacherSidebar from "./Sidebar/TeacherSidebar";
 import Login from "./Login/Login";
+import Teacherdashboard from "./TeacherDashboard/Teacherdashboard";
 
 function App() {
   return (
     <div className="d-flex">
-      <Login />
+     <Teacherdashboard/>
+      
     </div>
   );
 }
