@@ -11,7 +11,7 @@ const Teacherdashboard = () => (
 
     <div className='w-100'>
       <NavigationBar Role='Teacher' Name='Ms.Tharusha Kavindi' />
-      <AddMarks/>
+      <ViewMarks/>
     </div>
 
   </>
