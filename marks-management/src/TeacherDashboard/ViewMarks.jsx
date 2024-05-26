@@ -2,7 +2,13 @@ import React from 'react'
 
 const ViewMarks = () => {
   return (
-    <div>ViewMarks</div>
+   <>
+   <div>
+    <input type="text" />
+    <input type="text" placeholder="Search.." name="search"/>
+    <button>Search</button>
+   </div>
+   </>
   )
 }
 

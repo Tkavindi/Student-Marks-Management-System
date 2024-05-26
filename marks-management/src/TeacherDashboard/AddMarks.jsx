@@ -16,15 +16,15 @@ const AddMarks = () => {
 
                 <div>
                   <label htmlFor="Religion" className='m-3'>Religion :</label>
-                  <input type="number" id="Religion" name="Religion" min="0" max="100" required />
+                  <input type="number" id="Religion" name="Religion" min="0" max="100" className='inpcol' required />
                 </div>
                 <div>
                   <label htmlFor="Sinhala" className='m-3'>Sinhala :</label>
-                  <input type="number" id="Sinhala" name="Sinhala" min="0" max="100" required />
+                  <input type="number" id="Sinhala" name="Sinhala" min="0" max="100"className='inpcol' required />
                 </div>
                 <div className>
                   <label htmlFor="History" className='m-3'>History : </label>
-                  <input type="number" id="History" name="History" min="0" max="100" required />
+                  <input type="number" id="History" name="History" min="0" max="100" className='inpcol'required />
                 </div>
               </div>
 
@@ -32,15 +32,15 @@ const AddMarks = () => {
 
                 <div className='p-1'>
                   <label htmlFor="Maths" className='m-3'>Maths : </label>
-                  <input type="number" id="Maths" name="Maths" min="0" max="100" required />
+                  <input type="number" id="Maths" name="Maths" min="0" max="100" className='inpcol' required />
                 </div>
                 <div>
                   <label htmlFor="Science" className='m-3'>Science :</label>
-                  <input type="number" id="Science" name="Science" min="0" max="100" required />
+                  <input type="number" id="Science" name="Science" min="0" max="100" className='inpcol'required />
                 </div>
                 <div>
                   <label htmlFor="English" className='m-3'>English :</label>
-                  <input type="number" id="English" name="English" min="0" max="100" required />
+                  <input type="number" id="English" name="English" min="0" max="100"className='inpcol' required />
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ const AddMarks = () => {
                   <option value="Chinese Language">Chinese Language</option>
                   <option value="Russian Language">Russian Language</option>
                 </select>
-                <input type="number" id="1st Group" name="1st Group" min="0" max="100" className='m-1' required />
+                <input type="number" id="1st Group" name="1st Group" min="0" max="100" className='m-1 inpcol' required />
               </div>
 
               <div className='2ndGroup m-3'>
@@ -89,7 +89,7 @@ const AddMarks = () => {
                   <option value="Appreciation of Arabic Literary Texts (Arabic Literature)">Arabic Literature</option>
                   <option value="Drama and Theatre">Drama and Theatre</option>
                 </select>
-                <input type="number" id="2nd Group" name="2nd Group" min="0" max="100" className='m-1' required />
+                <input type="number" id="2nd Group" name="2nd Group" min="0" max="100" className='m-1 inpcol' required />
               </div>
 
 
@@ -109,7 +109,7 @@ const AddMarks = () => {
                   <option value="Electronic Writing & Shorthand">Electronic Writing & Shorthand</option>
 
                 </select>
-                <input type="number" id="3rd Group" name="2nd Group" min="0" max="100" className='m-1' required />
+                <input type="number" id="3rd Group" name="2nd Group" min="0" max="100" className='m-1 inpcol' required />
               </div>
             </div>
             <button className='btn Submitbtn w-100 m-2 text-light'>Submit</button>
