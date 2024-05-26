@@ -19,12 +19,12 @@ const Login = () => {
             <div className=''>
              <label htmlFor="UserId" className='p-1'>User ID :</label>
              <br />
-             <input type="text" id='UserId' className='w-100 p-2' placeholder='Enter User ID'/>
+             <input type="text" id='UserId' className='w-100 p-2 inpbox' placeholder='Enter User ID'/>
             </div>
           <div className='mt-3'>
              <label htmlFor="Pwd" className='p-1'>Password :</label>
              <br />
-             <input type="text" id='Pwd' className='w-100 p-2' placeholder='Enter Password'/>
+             <input type="text" id='Pwd' className='w-100 p-2 inpbox' placeholder='Enter Password'/>
           </div>
           <button className='btn LoginBtn w-100 mt-4'>Login</button>
           </div>

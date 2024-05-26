@@ -8,6 +8,7 @@ import StudentSidebar from "./Sidebar/StudentSidebar";
 import TeacherSidebar from "./Sidebar/TeacherSidebar";
 import Login from "./Login/Login";
 import Teacherdashboard from "./TeacherDashboard/Teacherdashboard";
+import AddMarks from "./TeacherDashboard/AddMarks";
 
 function App() {
   return (

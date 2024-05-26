@@ -1,0 +1,24 @@
+.inpcol{
+    height: 35px;
+    width: 25%;
+    border-radius: 10px;
+    border-color: #52ADA5;
+    background-color: rgb(232, 223, 223);
+    opacity: 0.9;
+    margin-left: 3px;
+}
+
+.searchicon{
+   font-size: 1.2em; 
+   color: #52ADA5;
+   width: 30px;
+      
+}
+
+.searchbox{
+    border-color: blue;
+}
+
+.tablesheet{
+    background-color: #52ADA5;
+}
